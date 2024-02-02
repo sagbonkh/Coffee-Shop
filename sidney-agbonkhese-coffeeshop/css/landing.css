@@ -1,0 +1,71 @@
+.navigation-area{
+    background: #FFF0ED;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.coffee-defn{
+    background: #FFF0ED;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.coffee-images{
+    height: 280px;
+}
+
+.price{
+    color: #5BACC3;
+}
+
+.discount-sect{
+    background: #393939;
+    color: #F7F7F7;
+    width: 90%;
+    text-align: center;
+}
+
+.footer-sect{
+    background: #FFF0ED;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bean-logo{
+    width: 50px;
+}
+
+.discount-text{
+    font-size: 45px;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.nitro-title{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-list{
+    list-style-type: none;
+}
+
+button{
+    color: #F7F7F7;
+    background-color: #5BACC3;
+}
+
+h1, h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+p{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 33px;
+    font-weight: 300;
+}
