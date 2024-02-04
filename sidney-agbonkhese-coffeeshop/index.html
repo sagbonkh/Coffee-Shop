@@ -13,93 +13,139 @@
   </head>
   <body>
     <header>
-      <nav class="navigation-area">
-        <a href="./index.html">
-        <img
-          alt="coffee bean logo"
-          src="./assets/logos/coffee-beans-logo-and-footer.svg"
-          class="bean-logo"
-        />
-      </a>
-        <h1>
-          <a href="./index.html" class="nitro-title">nitro</a>
+      <nav class="nav-area">
+        <a href="./index.html" class="nav-area__bean-logo--link">
+          <img
+            alt="coffee bean logo"
+            src="./assets/logos/coffee-beans-logo-and-footer.svg"
+            class="nav-area__bean-logo"
+          />
+        </a>
+        <h1 class="nav-area__header">
+          <a href="./index.html" class="nav-area__nitro-title">nitro</a>
         </h1>
-        <ul class="menu-list">
-          <li>
-            <a href="./index.html">ABOUT</a>
+        <ul class="nav-area__menu-list">
+          <li class="nav-area__list-items">
+            <a href="./index.html" class="nav-area__list-links">ABOUT</a>
           </li>
-          <li>
-            <a href="./pages/menu.html">MENU</a>
+          <li class="nav-area__list-items">
+            <a href="./pages/menu.html" class="nav-area__list-links">MENU</a>
           </li>
-          <li>
-            <a href="./pages/menu.html">SHOP NOW</a>
+          <li class="nav-area__list-items">
+            <a
+              href="./pages/menu.html"
+              class="nav-area__list-links nav-area__list-link--colour"
+              >SHOP NOW</a
+            >
           </li>
         </ul>
       </nav>
-      <section class="coffee-defn">
-        <h1>Nitro Coffee</h1>
-        <p>
-          Coffee is a brewed drink prepared from roasted coffee beans, the seeds
-          of berries from certain Coffee species
-        </p>
-        <a href="./pages/menu.html">
-          <button>SHOP NOW</button>
-        </a>
-        <img alt="coffee bag" src="./assets/coffeebeans-hero.png" />
+      <section class="coffee">
+        <section class="coffee--head-body">
+          <h1 class="coffee--header">Nitro Coffee</h1>
+          <section class="coffee--text-sect">
+            <p class="coffee--text">
+              Coffee is a brewed drink prepared from roasted coffee beans, the
+              seeds of berries from certain Coffee species
+            </p>
+          </section>
+          <a
+            class="coffee--head-body__btn"
+            href="./pages/menu.html"
+            style="display: block"
+          >
+            <button>SHOP NOW</button>
+          </a>
+        </section>
+        <img
+          alt="coffee bag"
+          class="coffee--img"
+          src="./assets/coffeebeans-hero.png"
+        />
       </section>
     </header>
     <main>
-      <section>
-        <h2>Our Products</h2>
-        <img
-          alt="coffee beans"
-          src="./assets/coffeebeans-hero.png"
-          class="coffee-images"
-        />
-        <h3>Coffee Beans</h3>
-        <p class="price">$18.99</p>
-        <img
-          alt="cold brew"
-          src="./assets/coldbrew.png"
-          class="coffee-images"
-        />
-        <h3>Cold Brew</h3>
-        <p class="price">$4.99</p>
-        <img
-          alt="In-house Brew"
-          src="./assets/inhousebrew.png"
-          class="coffee-images"
-        />
-        <h3>In-house Brew</h3>
-        <p class="price">$2.99</p>
-        <a href="./pages/menu.html">
+      <section class="prod-sect">
+        <h2 class="prod-sect__title">Our Products</h2>
+        <div class="prod-cards">
+          <img
+            alt="coffee beans"
+            src="./assets/coffeebeans-hero.png"
+            class="prod-cards__coffee-images"
+          />
+          <h3>Coffee Beans</h3>
+          <p class="prod-cards__price">$18.99</p>
+        </div>
+        <div class="prod-cards">
+          <img
+            alt="cold brew"
+            src="./assets/coldbrew.png"
+            class="prod-cards__coffee-images"
+          />
+          <h3>Cold Brew</h3>
+          <p class="prod-cards__price">$4.99</p>
+        </div>
+        <div class="prod-cards">
+          <img
+            alt="In-house Brew"
+            src="./assets/inhousebrew.png"
+            class="prod-cards__coffee-images"
+          />
+          <h3>In-house Brew</h3>
+          <p class="prod-cards__price">$2.99</p>
+        </div>
+        <a class="view-btn" href="./pages/menu.html">
           <button>VIEW ALL</button>
         </a>
       </section>
       <section class="discount-sect">
-        <p class="discount-text">
+        <p class="discount-sect__text">
           Get 20% off your first order with code: FirstNitro
         </p>
       </section>
     </main>
     <footer>
       <section class="footer-sect">
-        <h3>Address</h3>
-        <p>503 Broadway Penthouse</p>
-        <p>New York</p>
-        <h3>Hours</h3>
-        <p><strong>Monday - Friday:</strong> 9am - 7pm</p>
-        <p><strong>Saturday - Sunday:</strong> 10am - 5pm</p>
-        <h3>Social</h3>
-        <a href="https://www.facebook.com">
-          <img alt="facebook" src="./assets/logos/Facebook-Icon.svg" />
-        </a>
-        <a href="https://www.yelp.com">
-          <img alt="yelp" src="./assets/logos/Yelp-Icon.svg" />
-        </a>
-        <a href="https://www.instagram.com">
-          <img alt="instagram" src="./assets/logos/Instagram-Icon.svg" />
-        </a>
+        <section class="footer-group">
+          <section class="address">
+            <h3>Address</h3>
+            <p class="address__text">503 Broadway Penthouse</p>
+            <p class="address__text">New York</p>
+          </section>
+          <section class="hours">
+            <h3>Hours</h3>
+            <p class="hours__text">
+              <strong>Monday - Friday:</strong> 9am - 7pm
+            </p>
+            <p class="hours__text">
+              <strong>Saturday - Sunday:</strong> 10am - 5pm
+            </p>
+          </section>
+          <section class="social-sect">
+            <h3>Social</h3>
+            <a class="social-sect__link" href="https://www.facebook.com">
+              <img
+                class="social-sect__img"
+                alt="facebook"
+                src="./assets/logos/Facebook-Icon.svg"
+              />
+            </a>
+            <a class="social-sect__link" href="https://www.yelp.com">
+              <img
+                class="social-sect__img"
+                alt="yelp"
+                src="./assets/logos/Yelp-Icon.svg"
+              />
+            </a>
+            <a class="social-sect__link" href="https://www.instagram.com">
+              <img
+                class="social-sect__img"
+                alt="instagram"
+                src="./assets/logos/Instagram-Icon.svg"
+              />
+            </a>
+          </section>
+        </section>
       </section>
     </footer>
   </body>

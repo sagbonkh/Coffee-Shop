@@ -1,71 +1,195 @@
-.navigation-area{
-    background: #FFF0ED;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+.nav-area {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-.coffee-defn{
-    background: #FFF0ED;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+.coffee {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-.coffee-images{
-    height: 280px;
+.view-btn{
+    margin-left: 40%;
+}
+.prod-sect{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-.price{
-    color: #5BACC3;
-}
-
-.discount-sect{
-    background: #393939;
-    color: #F7F7F7;
-    width: 90%;
+.prod-sect__title{
     text-align: center;
 }
 
-.footer-sect{
-    background: #FFF0ED;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+.coffee--text {
+  display: inline-block;
+  width: 60%;
+  margin-top: 0;
 }
-.bean-logo{
+.coffee--text-sect {
+  display: inline-block;
+}
+.coffee--head-body{
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.coffee--img {
+  display: inline-block;
+  padding-left: 20%;
+}
+.coffee--header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.prod-cards__coffee-images {
+  height: 280px;
+}
+
+.prod-cards__price {
+  color: #5bacc3;
+}
+
+.discount-sect {
+  background: #393939;
+  color: #f7f7f7;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer-sect {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-group{
+    margin-left: 18%;
+    margin-right: 5%;
+}
+.nav-area__bean-logo {
+  width: 50px;
+  display: inline-block;
+}
+
+.nav-area__bean-logo--link {
+  text-decoration: none;
+}
+
+.discount-sect__text {
+  font-size: 45px;
+  font-weight: 400;
+  font-style: bold;
+  margin: 4rem;
+}
+
+.nav-area__nitro-title {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-area__menu-list {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-area__list-items {
+  display: inline-block;
+  margin: 20px;
+}
+
+.nav-area__list-links {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-area__list-link--colour {
+  color: #5bacc3;
+}
+
+.nav-area__header {
+  display: inline;
+}
+
+.prod-cards {
+  display: inline-block;
+  border-radius: 10px;
+  width: 330px;
+  height: 440px;
+  padding: 20px;
+  box-shadow: 0 5px 9px -1px;
+  box-shadow: rgba(0, 0, 0, 25);
+  text-align: center;
+  margin: 20px;
+}
+.prod-cards__view-btn {
+  display: block;
+  margin-top: 20px;
+  width: 180px;
+  padding: 20px;
+}
+.address {
+  display: inline-block;
+  margin-right: 2rem;
+  box-sizing: border-box;
+  width: 19rem;
+}
+
+.address__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hours {
+  display: inline-block;
+  margin-right: 2rem;
+  box-sizing: border-box;
+  width: 19rem;
+}
+.hours__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.social-sect {
+  display: inline-block;
+  margin-right: 2rem;
+  box-sizing: border-box;
+  width: 19rem;
+
+}
+.social-sect__link {
+    text-decoration: none;
+  }
+.social-sect__img{
     width: 50px;
 }
-
-.discount-text{
-    font-size: 45px;
-    font-weight: 400;
-    font-style: bold;
+button {
+  color: #f7f7f7;
+  background-color: #5bacc3;
+  border: none;
+  width: 180px;
+  padding: 20px;
 }
 
-.nitro-title{
-    color: black;
-    text-decoration: none;
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+p {
+  font-size: 18px;
 }
 
-.menu-list{
-    list-style-type: none;
-}
-
-button{
-    color: #F7F7F7;
-    background-color: #5BACC3;
-}
-
-h1, h2{
-    font-size: 60px;
-    font-weight: 300;
-}
-p{
-    font-size: 18px;
-}
-
-h3{
-    font-size: 33px;
-    font-weight: 300;
+h3 {
+  font-size: 33px;
+  font-weight: 300;
 }
