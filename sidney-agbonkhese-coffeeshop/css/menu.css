@@ -5,7 +5,7 @@
     background-size: cover;
   }
   .nav-area__bean-logo {
-    width: 50px;
+    width: 3.125rem;
     display: inline-block;
   }
   
@@ -25,12 +25,12 @@
   
   .nav-area__list-items {
     display: inline-block;
-    margin: 20px;
+    margin: 1.25rem;
   }
   
   .nav-area__list-links {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 1.313rem;
     color: black;
   }
   
@@ -72,7 +72,7 @@
 .menu-sect{
     background-image: url('../assets/coffee-circle.jpg');
     width: 100%; 
-    height: 700px;  
+    height: 43.75rem;  
     background-position: center;
     background-size: cover;
     
@@ -80,8 +80,8 @@
 .menu-sect__header{
     background: #393939;
     color: #F7F7F7;
-    width: 300px;
-    height: 200px; 
+    width: 18.75rem;
+    height: 12.5rem; 
     margin-top: 0; 
     text-align: center;
     margin-left: 40%;
@@ -91,9 +91,9 @@
 .menu{
     background: #393939;
     list-style-type: none;
-    padding-top: 40px;
+    padding-top: 2.5rem;
     width: 100%;
-    height: 80px;
+    height: 5rem;
 }
 
 .menu__list{
@@ -102,7 +102,7 @@
     margin-top: 0;
     margin-bottom: 0;
     width: 100%;
-    height: 80px;
+    height: 5rem;
 }
 
 .header-list{
@@ -113,7 +113,7 @@
 .menu__list-item--text{
     color: #F7F7F7;
     text-decoration: none;
-    border-left: 4px solid #5BACC3;
+    border-left: 0.25rem solid #5BACC3;
     padding-left: 2%;
     padding-right: 2%;
     display: inline;
@@ -139,11 +139,11 @@
 }
 
 h1, h2{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 300;
 }
 p{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 h2{
@@ -151,12 +151,12 @@ h2{
 }
 
 nav{
-    font-size: 21px;
+    font-size: 1.313rem;
 }
 
 h3{
     text-align: center;
-    font-size: 33px;
+    font-size: 2.063rem;
     font-weight: 300;
 }
 
