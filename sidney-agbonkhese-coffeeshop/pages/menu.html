@@ -13,45 +13,55 @@
   </head>
   <body>
     <header>
-        <img src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee beans">
-      <h1>
-        <a href="" class="nitro-title">nitro</a>
-      </h1>
-      <section class="home-menu-list">
-      <ul class="header-list">
-        <li>
-          <a href="">ABOUT</a>
-        </li>
-        <li>
-          <a href="">MENU</a>
-        </li>
-        <li>
-          <a href="">SHOP NOW</a>
-        </li>
-      </ul>
-    </section>
+      <nav class= "nav-area">
+        <a href="./index.html" class="nav-area__bean-logo--link">
+          <img
+            alt="coffee bean logo"
+            src="../assets/logos/coffee-beans-logo-and-footer.svg"
+            class="nav-area__bean-logo"
+          />
+        </a>
+        <h1 class="nav-area__header">
+          <a href="./index.html" class="nav-area__nitro-title">nitro</a>
+        </h1>
+        <ul class="nav-area__menu-list">
+          <li class="nav-area__list-items">
+            <a href="./index.html" class="nav-area__list-links">ABOUT</a>
+          </li>
+          <li class="nav-area__list-items">
+            <a href="./pages/menu.html" class="nav-area__list-links">MENU</a>
+          </li>
+          <li class="nav-area__list-items">
+            <a
+              href="./pages/menu.html"
+              class="nav-area__list-links nav-area__list-link--colour"
+              >SHOP NOW</a
+            >
+          </li>
+        </ul>
+      </nav>
       <section class="menu-sect">
-        <h1 class="menu-box">Menu</h1>
+        <h1 class="menu-sect__header">Menu</h1>
       </section>
     </header>
     <section class="menu">
       <nav>
-        <ul class="menu-list">
-          <li>
-            <a href="" class="menu-text">Hot Drinks</a>
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a href="" class="menu__list-item--text">HOT DRINKS</a>
           </li>
-          <li>
-            <a href="" class="menu-text">Cold Drinks</a>
+          <li class="menu__list-item">
+            <a href="" class="menu__list-item--text">COLD DRINKS</a>
           </li>
-          <li>
-            <a href="" class="menu-text">Pastries</a>
+          <li class="menu__list-item">
+            <a href="" class="menu__list-item--text">PASTRIES</a>
           </li>
         </ul>
       </nav>
     </section>
     <main>
       <section class="hot-drinks">
-        <h2>Hot Drinks</h2>
+        <h2 class="hot-drinks__title">Hot Drinks</h2>
         <h3>In-house Brew</h3>
         <p class="description">
           Our in-house medium roast is a classic balance between sweet vanilla,
@@ -68,7 +78,7 @@
         <p class="price">$4.99</p>
       </section>
       <section class="cold-drinks">
-        <h2>Cold Drinks</h2>
+        <h2 class="cold-drinks__title">Cold Drinks</h2>
         <h3>Cold Brew</h3>
         <p class="description">
           Our bright and delicious coffee blend, brewed over ice to give you a
@@ -84,7 +94,7 @@
         <p class="price">$6.99</p>
       </section>
       <section class="pastries">
-        <h2>Pastries</h2>
+        <h2 class="pastries__title">Pastries</h2>
         <h3>Bacon Oatmeal Raisin Cookie</h3>
         <p class="description">
           An infused bacon, sugar and egg mixture is folded into a perfect blend
