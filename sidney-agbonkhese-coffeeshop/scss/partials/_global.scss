@@ -1,0 +1,80 @@
+.coffee-border{
+    border: #5bacc3 solid;
+    height: fit-content;
+    width: 400px;
+    height: auto;
+    position: relative;
+  }
+.nav-area {
+    background: #fff0ed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .nav-area__bean-logo {
+    width: 3rem;
+    display: inline-block;
+  }
+  
+  .nav-area__bean-logo--link {
+    text-decoration: none;
+  }
+  .nav-area__nitro-title {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .nav-area__menu-list {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  .nav-area__list-items {
+    display: inline-block;
+    margin: 1.25rem;
+  }
+  
+  .nav-area__list-links {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  .nav-area__list-link--colour {
+    color: #5bacc3;
+  }
+  
+  .nav-area__header {
+    display: inline;
+  }  
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+button {
+    color: #f7f7f7;
+    background-color: #5bacc3;
+    width: 11.25rem;
+    padding: 1.25rem;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    z-index: -1;
+    border: none;
+  }
+  h1,
+  h2 {
+    font-size: 3.75rem;
+    font-weight: 300;
+  }
+  p {
+    font-size: 1.13rem;
+  }
+  
+  h3 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  

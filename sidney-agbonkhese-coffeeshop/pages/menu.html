@@ -7,14 +7,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link href="../css/menu.css" rel="stylesheet" />
-    <link href="../css/global.css" rel="stylesheet" />
+    <link href="../scss/menu.css" rel="stylesheet" />
+    <link href="../scss/partials/global.css" rel="stylesheet" />
     <title>Coffee Shop - Home</title>
   </head>
   <body>
     <header>
-      <nav class= "nav-area">
-        <a href="./index.html" class="nav-area__bean-logo--link">
+      <nav class="nav-area">
+        <a href="../index.html" class="nav-area__bean-logo--link">
           <img
             alt="coffee bean logo"
             src="../assets/logos/coffee-beans-logo-and-footer.svg"
@@ -22,11 +22,11 @@
           />
         </a>
         <h1 class="nav-area__header">
-          <a href="./index.html" class="nav-area__nitro-title">nitro</a>
+          <a href="../index.html" class="nav-area__nitro-title">nitro</a>
         </h1>
         <ul class="nav-area__menu-list">
           <li class="nav-area__list-items">
-            <a href="./index.html" class="nav-area__list-links">ABOUT</a>
+            <a href="../index.html" class="nav-area__list-links">ABOUT</a>
           </li>
           <li class="nav-area__list-items">
             <a href="./pages/menu.html" class="nav-area__list-links">MENU</a>
@@ -41,7 +41,11 @@
         </ul>
       </nav>
       <section class="menu-sect">
-        <h1 class="menu-sect__header">Menu</h1>
+        <div class="menu-sect__header-sect">
+          <section class="coffee-border" id="menu-coffee-border">
+            <h1 class="menu-sect__header">Menu</h1>
+          </section>
+        </div>
       </section>
     </header>
     <section class="menu">

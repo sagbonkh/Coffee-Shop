@@ -7,8 +7,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link href="./css/landing.css" rel="stylesheet" />
-    <link href="./css/global.css" rel="stylesheet" />
+    <link href="./scss/landing.css" rel="stylesheet" />
+    <link href="./scss/partials/global.css" rel="stylesheet" />
     <title>Coffee Shop - Home</title>
   </head>
   <body>
@@ -41,17 +41,17 @@
         </ul>
       </nav>
       <section class="coffee">
-        <section class="coffee__head-body">
-          <h1 class="coffee__header">Nitro Coffee</h1>
-          <section class="coffee__text-sect">
-            <p class="coffee__text">
-              Coffee is a brewed drink prepared from roasted coffee beans, the
-              seeds of berries from certain Coffee species
-            </p>
-          </section>
-          <a href="./pages/menu.html">
-            <button>SHOP NOW</button>
-          </a>
+        <section class="coffee__content">
+          <h1 class="coffee__content__header">Nitro Coffee</h1>
+          <p class="coffee__content__text">
+            Coffee is a brewed drink prepared from roasted coffee beans, the
+            seeds of berries from certain Coffee species
+          </p>
+          <div class="btn-border">
+            <a href="./pages/menu.html">
+              <button>SHOP NOW</button>
+            </a>
+          </div>
         </section>
         <img
           alt="coffee bag"
@@ -63,53 +63,108 @@
     <main>
       <section class="prod-sect">
         <h2 class="prod-sect__title">Our Products</h2>
-        <div class="cards">
-          <div class="prod-cards">
+        <div class="prod-sect__card-sect">
+          <div class="prod-sect__card-sect__card">
             <img
               alt="coffee beans"
               src="./assets/coffeebeans-hero.png"
-              class="prod-cards__coffee-images"
+              class="coffee-images"
             />
-            <div class="prod-cards__text-sect">
-              <div class="prod-cards__subsect">
-                <h3 class="prod-cards__text-sect--header">Coffee Beans</h3>
-                <p class="prod-cards__text-sect--sub-text">Pack of 3</p>
+            <div class="prod-sect__card-sect__card__txt-sect">
+              <div class="prod-sect__card-sect__card__txt-sect__subsect">
+                <h3>Coffee Beans</h3>
+                <p
+                  class="prod-sect__card-sect__card__txt-sect__subsect__sub-text"
+                >
+                  Pack of 3
+                </p>
               </div>
-              <p class="prod-cards__price"><strong>$18.99</strong></p>
+              <p class="prod-sect__card-sect__card__txt-sect__price">$18.99</p>
             </div>
           </div>
-          <div class="prod-cards">
+          <div class="prod-sect__card-sect__card">
             <img
               alt="cold brew"
               src="./assets/coldbrew.png"
-              class="prod-cards__coffee-images"
+              class="coffee-images"
             />
-            <div class="prod-cards__text-sect">
-              <div class="prod-cards__subsect">
-                <h3 class="prod-cards__text-sect--header">Cold Brew</h3>
-                <p class="prod-cards__text-sect--sub-text">1 can</p>
+            <div class="prod-sect__card-sect__card__txt-sect">
+              <div class="prod-sect__card-sect__card__txt-sect__subsect">
+                <h3>Cold Brew</h3>
+                <p
+                  class="prod-sect__card-sect__card__txt-sect__subsect__sub-text"
+                >
+                  1 can
+                </p>
               </div>
-              <p class="prod-cards__price"><strong>$4.99</strong></p>
+              <p class="prod-sect__card-sect__card__txt-sect__price">$4.99</p>
             </div>
           </div>
-          <div class="prod-cards">
+          <div class="prod-sect__card-sect__card">
             <img
               alt="In-house Brew"
               src="./assets/inhousebrew.png"
-              class="prod-cards__coffee-images"
+              class="coffee-images"
             />
-            <div class="prod-cards__text-sect">
-              <div class="prod-cards__subsect">
-                <h3 class="prod-cards__text-sect--header">In-house Brew</h3>
-                <p class="prod-cards__text-sect--sub-text">1 cup</p>
+            <div class="prod-sect__card-sect__card__txt-sect">
+              <div class="prod-sect__card-sect__card__txt-sect__subsect">
+                <h3>In-house Brew</h3>
+                <p
+                  class="prod-sect__card-sect__card__txt-sect__subsect__sub-text"
+                >
+                  1 cup
+                </p>
               </div>
-              <p class="prod-cards__price"><strong>$2.99</strong></p>
+              <p class="prod-sect__card-sect__card__txt-sect__price">$2.99</p>
             </div>
           </div>
         </div>
-        <a class="view-btn" href="./pages/menu.html">
-          <button>VIEW ALL</button>
-        </a>
+        <div class="btn-border">
+          <a href="./pages/menu.html">
+            <button>VIEW ALL</button>
+          </a>
+        </div>
+      </section>
+      <section class="slogan">
+        <section class="slogan__content">
+          <h2>We're Different</h2>
+          <p>
+            We grow and roast our own beans. Every bean, every cup, every step
+            of the way, we strive for excellence
+          </p>
+          <section class="slogan__logos">
+            <img
+              src="./assets/logos/planting.svg"
+              alt="planting"
+              class="small-icons"
+            />
+            <img
+              src="./assets/logos/coffee-beans.svg"
+              alt="beans"
+              class="small-icons"
+            />
+            <img
+              src="./assets/logos/coffee-cup.svg"
+              alt="cup"
+              class="small-icons"
+            />
+          </section>
+          <div class="btn-border">
+            <button>LEARN MORE</button>
+          </div>
+        </section>
+        <section class="coffee-border">
+          <img
+            src="./assets/coldbrewbackground.png"
+            alt="background"
+            class="coffee-images coffee-images--border"
+          />
+          <img
+            src="./assets/tiltedcan.png"
+            alt="tilted can"
+            class="coffee-images coffee-images--mod"
+          />
+        </section>
       </section>
       <section class="discount-sect">
         <p class="discount-sect__text">
@@ -117,55 +172,52 @@
         </p>
       </section>
     </main>
-    <footer>
-      <section class="footer-sect">
-        <section class="footer-group">
-          <section class="footer-group__addr">
-            <h3>Address</h3>
-            <p class="footer-group__addr--text">503 Broadway Penthouse</p>
-            <p class="footer-group__addr--text">New York</p>
-          </section>
-          <section class="footer-group__hrs">
-            <h3>Hours</h3>
-            <p class="footer-group__hrs--text">
-              <strong>Monday - Friday:</strong> 9am - 7pm
-            </p>
-            <p class="footer-group__hrs--text">
-              <strong>Saturday - Sunday:</strong> 10am - 5pm
-            </p>
-          </section>
-          <section class="footer-group__social">
-            <h3>Social</h3>
-            <a
-              class="footer-group__social--link"
-              href="https://www.facebook.com"
-            >
-              <img
-                class="footer-group__social--img"
-                alt="facebook"
-                src="./assets/logos/Facebook-Icon.svg"
-              />
-            </a>
-            <a class="footer-group__social--link" href="https://www.yelp.com">
-              <img
-                class="footer-group__social--img"
-                alt="yelp"
-                src="./assets/logos/Yelp-Icon.svg"
-              />
-            </a>
-            <a
-              class="footer-group__social--link"
-              href="https://www.instagram.com"
-            >
-              <img
-                class="footer-group__social--img"
-                alt="instagram"
-                src="./assets/logos/Instagram-Icon.svg"
-              />
-            </a>
-          </section>
-        </section>
+    <footer class="footer">
+      <section class="footer__sect">
+        <h3>Address</h3>
+        <p>503 Broadway Penthouse New York</p>
       </section>
+      <section class="footer__sect">
+        <h3>Hours</h3>
+        <p class="footer__sect__day">Monday - Friday:</p>
+        <p class="footer__sect__time">9am - 7pm</p>
+        <p class="footer__sect__day">Monday - Friday:</p>
+        <p class="footer__sect__time">9am - 7pm</p>
+      </section>
+      <section class="footer__sect">
+        <h3>Social</h3>
+        <a class="footer__sect__link" href="https://www.facebook.com">
+          <img
+            class="small-icons"
+            alt="facebook"
+            src="./assets/logos/Facebook-Icon.svg"
+          />
+        </a>
+        <a class="footer__sect__link" href="https://www.yelp.com">
+          <img
+            class="small-icons"
+            alt="yelp"
+            src="./assets/logos/Yelp-Icon.svg"
+          />
+        </a>
+        <a class="footer__sect__link" href="https://www.instagram.com">
+          <img
+            class="small-icons"
+            alt="instagram"
+            src="./assets/logos/Instagram-Icon.svg"
+          />
+        </a>
+      </section>
+      <img
+        alt="bean background"
+        src="./assets/logos/coffee-beans-logo-and-footer.svg"
+        class="footer__background-imgs footer__background-imgs--left"
+      />
+      <img
+        alt="bean background"
+        src="./assets/logos/coffee-beans-logo-and-footer.svg"
+        class="footer__background-imgs footer__background-imgs--right"
+      />
     </footer>
   </body>
 </html>

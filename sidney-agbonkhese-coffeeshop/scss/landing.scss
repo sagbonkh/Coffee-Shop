@@ -1,0 +1,209 @@
+@use "./partials/global" as *;
+
+.coffee {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  &__content {
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 10%;
+    position: relative;
+    z-index: 4;
+    &__header {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    &__text {
+      display: inline-block;
+      width: 60%;
+      margin-top: 0;
+    }
+  }
+  &__img {
+    display: inline-block;
+    padding-left: 20%;
+  }
+}
+
+.prod-sect {
+  margin-left: 2%;
+  margin-right: 2%;
+  &__title {
+    text-align: center;
+  }
+  &__card-sect {
+    display: flex;
+
+    &__card {
+      display: inline-block;
+      border-radius: 0.7rem;
+      width: 21rem;
+      height: 27.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      box-shadow: 0 0.3rem 0.6rem -0.06rem;
+      box-shadow: rgba(0, 0, 0, 25);
+      text-align: center;
+      margin: 1.25rem;
+
+      &__txt-sect {
+        background-color: #fff0ed;
+        border-radius: 0.7rem;
+        display: flex;
+        height: 11rem;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-left: 1.2rem;
+
+        &__subsect {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          &__sub-text {
+            color: #909090;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+          }
+        }
+        &__price {
+          color: #5bacc3;
+          margin-right: 1.2rem;
+          margin-top: 2.1rem;
+          padding-top: 1.2rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.slogan {
+  display: flex;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 10rem;
+    padding-right: 7rem;
+  }
+  &__logos {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.discount-sect {
+  background: #393939;
+  color: #f7f7f7;
+  width: 90%;
+  text-align: center;
+  margin: 7%;
+
+  &__text {
+    font-size: 2.8rem;
+    font-weight: 400;
+    font-style: bold;
+    margin: 4rem;
+  }
+}
+
+.footer {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  &__sect {
+    padding-bottom: 3rem;
+    width: 20%;
+    padding-left: 4%;
+    &__day{
+      font-weight: bold;
+      display: inline;
+    }
+    &__time{
+      display: inline;
+    }
+    &__addr {
+      display: inline-block;
+      margin-right: 2rem;
+      box-sizing: border-box;
+      width: 19rem;
+      &__addr-text {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+    &__hrs {
+      display: inline-block;
+      margin-right: 2rem;
+      box-sizing: border-box;
+      width: 19rem;
+
+      &__text {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+    &__link{
+      text-decoration: none;
+    }
+  }
+}
+
+.small-icons {
+  width: 3.125rem;
+}
+
+.footer__background-imgs {
+  width: 120px;
+  height: auto;
+  opacity: 25%;
+  position: absolute;
+}
+.footer__background-imgs--left {
+  bottom: 40%;
+  left: 0%;
+}
+.footer__background-imgs--right {
+  bottom: 10%;
+  left: 90%;
+}
+
+.prod-cards__view-btn {
+  display: block;
+  margin-top: 1.25rem;
+  width: 11.25rem;
+  padding: 1.25rem;
+}
+
+.coffee-images {
+  height: 17.5rem;
+}
+.coffee-images--mod {
+  position: absolute;
+  right: 25%;
+  top: 20%;
+}
+.coffee-images--border {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 400px;
+  height: auto;
+}
+
+.btn-border {
+  border: #393939 solid;
+  border-width: 2px;
+  position: relative;
+  width: fit-content;
+}

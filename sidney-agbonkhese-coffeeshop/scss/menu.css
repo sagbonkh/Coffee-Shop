@@ -1,0 +1,271 @@
+.coffee-border {
+  border: #5bacc3 solid;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 400px;
+  height: auto;
+  position: relative;
+}
+
+.nav-area {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-area__bean-logo {
+  width: 3rem;
+  display: inline-block;
+}
+
+.nav-area__bean-logo--link {
+  text-decoration: none;
+}
+
+.nav-area__nitro-title {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-area__menu-list {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-area__list-items {
+  display: inline-block;
+  margin: 1.25rem;
+}
+
+.nav-area__list-links {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.nav-area__list-link--colour {
+  color: #5bacc3;
+}
+
+.nav-area__header {
+  display: inline;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  color: #f7f7f7;
+  background-color: #5bacc3;
+  width: 11.25rem;
+  padding: 1.25rem;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+  border: none;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.13rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.nav-area {
+  background: #fff0ed;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-area__bean-logo {
+  width: 3.125rem;
+  display: inline-block;
+}
+
+.nav-area__bean-logo--link {
+  text-decoration: none;
+}
+
+.nav-area__nitro-title {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-area__menu-list {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-area__list-items {
+  display: inline-block;
+  margin: 1.25rem;
+}
+
+.nav-area__list-links {
+  text-decoration: none;
+  font-size: 1.313rem;
+  color: black;
+}
+
+.nav-area__list-link--colour {
+  color: #5bacc3;
+}
+
+.nav-area__header {
+  display: inline;
+}
+
+.hot-drinks {
+  background: #FFF0ED;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.hot-drinks__title {
+  margin-top: 0;
+}
+
+.cold-drinks {
+  background: #F7F7F7;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.cold-drinks__title {
+  margin-top: 0;
+}
+
+.pastries {
+  background: #FFF0ED;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.pastries__title {
+  margin-top: 0;
+}
+
+.menu-sect {
+  background-image: url("../assets/coffee-circle.jpg");
+  width: 100%;
+  height: 43.75rem;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+#menu-coffee-border {
+  width: 300px;
+  height: 200px;
+}
+
+.menu-sect__header {
+  background: #393939;
+  color: #F7F7F7;
+  width: 18.75rem;
+  height: 12.5rem;
+  margin-top: 0;
+  text-align: center;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+}
+
+.menu-sect__header-sect {
+  position: relative;
+  z-index: 4;
+}
+
+.menu {
+  background: #393939;
+  list-style-type: none;
+  padding-top: 2.5rem;
+  width: 100%;
+  height: 5rem;
+}
+
+.menu__list {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 5rem;
+}
+
+.header-list {
+  list-style-type: none;
+}
+
+.menu__list-item--text {
+  color: #F7F7F7;
+  text-decoration: none;
+  border-left: 0.25rem solid #5BACC3;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline;
+}
+
+.menu__list-item {
+  display: inline;
+}
+
+.price {
+  text-align: center;
+  color: #5BACC3;
+  margin-bottom: 0;
+}
+
+.description {
+  display: inline-block;
+  max-width: 40%;
+  font-style: italic;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+h1, h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+  font-size: 1.313rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.063rem;
+  font-weight: 300;
+}/*# sourceMappingURL=menu.css.map */
