@@ -1,5 +1,14 @@
 @use "./partials/global" as *;
 
+@keyframes rotationFunc {
+    0%{
+      transform: rotate(360deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
 .coffee {
   background: #fff0ed;
   width: 100%;
@@ -184,6 +193,9 @@
   width: 11.25rem;
   padding: 1.25rem;
 }
+.prod-cards__view-btn:active{
+  background-color: brown;
+}
 
 .coffee-images {
   height: 17.5rem;
@@ -192,6 +204,9 @@
   position: absolute;
   right: 25%;
   top: 20%;
+}
+.coffee-images--mod:hover{
+  animation: rotationFunc 2s infinite;
 }
 .coffee-images--border {
   position: relative;

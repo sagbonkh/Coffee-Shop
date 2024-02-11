@@ -5,6 +5,7 @@
   width: 400px;
   height: auto;
   position: relative;
+  z-index: 1;
 }
 
 .nav-area {
@@ -68,6 +69,10 @@ button {
   left: 5px;
   z-index: -1;
   border: none;
+}
+
+button:active {
+  background-color: red;
 }
 
 h1,
